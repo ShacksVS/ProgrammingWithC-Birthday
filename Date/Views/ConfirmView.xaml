@@ -17,7 +17,7 @@
             <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
         <Label x:Name="LCaption" Content="Caption" Grid.Row="0" HorizontalAlignment="Center" Margin="0,5,0,0"/>
-        <DatePicker x:Name ="DpDate" Grid.Row="1" Text="{Binding Birthdate}"></DatePicker>
+        <DatePicker x:Name ="DpDate" Grid.Row="1"></DatePicker>
         <Button x:Name="BConfirm" Content="Confirm" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="Confirm_Click"></Button>
         <TextBlock x:Name="TbAge" Grid.Row="3" Margin="15,10,0,0" Text ="Waiting.." FontSize="9" Foreground="Gray" HorizontalAlignment="Left" VerticalAlignment="Bottom"></TextBlock>
         <TextBlock x:Name="TbChineseZodiac" Grid.Row="4" Margin="5,10,0,0" FontSize="11" HorizontalAlignment="Left" VerticalAlignment="Bottom"></TextBlock>
