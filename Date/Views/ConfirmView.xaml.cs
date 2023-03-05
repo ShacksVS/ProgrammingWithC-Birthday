@@ -41,7 +41,7 @@ namespace Date.Views
                 {
                     MessageBox.Show($"Are you living in the future? Be measure and pick your real birthdate");
                 }
-                else if (age == 0 || age > 135)
+                else if (age > 135)
                 {
                     MessageBox.Show($"Seriously?? Your cannot be {age} years old");
                 }
